@@ -1,0 +1,166 @@
+.victory-page {
+    padding: 50px; /* Отступы вокруг страницы победы */
+    text-align: center; /* Центрирование текста */
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #CE342A;
+
+}
+
+h2 {
+/* промокод */
+
+position: absolute;
+width: 580px;
+height: 101px;
+left: 540px;
+top: 516px;
+
+font-family: 'Montserrat Alternates', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 78px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 13px 11px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Snow {
+    position: absolute;
+    width: 1500px;
+    height: 1035px;
+    left: 0px;
+    top: 0px;
+    background: url(Snow Overlay 01.png);
+    opacity: 0.35;
+
+}
+.Rabbit  { 
+
+position: absolute;
+width: 600px;
+height: auto;
+left: -104px;
+top: 75px;
+
+   }
+
+
+.garland {
+
+position: absolute;
+width: 1500px;
+height: 101px;
+left: 0px;
+top: 10px;
+}
+.garland2 {
+
+
+position: absolute;
+width: 1500px;
+height: 101px;
+left: 0px;
+top: 882px;
+}
+
+.Cat {
+ position: absolute;
+    width: 600px;
+    height: auto;
+    left: 900px;
+    top: 266px;
+}
+h1  { 
+/* Group 1 */
+
+position: absolute;
+width: 400px;
+height: auto;
+left: 377px;
+top: 257px;
+
+/* ПОЗДРАВЛЯЕМ! Вы выиграли промокод -15% на посещение COFIX! */
+
+position: absolute;
+width: 598px;
+height: 236px;
+left: 429px;
+top: 320px;
+
+font-family: 'Montserrat Alternates',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 59px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(247, 242, 242, 0.827186);
+
+}
+#restart-button {
+/* сыграть снова */
+
+position: absolute;
+width: 250px;
+height: 57px;
+left: 602px;
+top: 790px;
+
+/* кубик */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 250px;
+height: 57px;
+left: calc(50% - 270px/2 + 17px);
+top: 790px;
+
+background: rgba(234, 227, 227, 0.613207);
+border: 3px solid #FEF8F3;
+border-radius: 29px;
+
+
+/* сыграть снова */
+
+position: absolute;
+width: 236px;
+height: 56px;
+left: 619px;
+top: 790px;
+
+font-family: 'Montserrat Alternates' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+justify-content: center; /* Центрирование текста по горизонтали внутри блока */
+    text-align: center;
+color: #F6E6D1;
+
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 20px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    transition: transform 0.3s; /* Плавный переход при увеличении */
+}
+
+#restart-button:hover {
+    transform: scale(1.1); /* Увеличение кнопки при наведении */
+}

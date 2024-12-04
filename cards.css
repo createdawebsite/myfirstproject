@@ -1,0 +1,29 @@
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    gap: 10px; /* Отступы между карточками */
+    padding: 20px; /* Внутренние отступы для оформления */
+}
+
+.card {
+     width: 285px;
+height: 353px;
+
+    background-image: url('рубашка.png'); /* Изображение рубашки карты */
+    background-size: cover; /* Чтобы изображение занимало всю карточку */
+    cursor: pointer;
+    position: relative; /* Позволяет позиционировать содержимое внутри карты */
+}
+
+.card img {
+    width: 285px;
+height: 353px;
+
+ /* Ширина изображения карты */
+   /* Высота изображения карты */
+    display: none; /* Скрыть изображение карты, показывать только при открытии */
+}
+
+.card.flipped img {
+    display: block; /* Показывать изображение карты, когда она открыта */
+}

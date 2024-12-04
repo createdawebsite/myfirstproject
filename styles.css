@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #CE342A;
+}
+
+.decorative-elements {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: rgba(206, 52, 42, 0.94);
+    border: 1px solid #ccc;
+}
+.garland {
+
+position: absolute;
+width: 1440px;
+height: 101px;
+left: 0px;
+top: 10px;
+}
+.garland2 {
+
+
+position: absolute;
+width: 1440px;
+height: 101px;
+left: 0px;
+top: 882px;
+}
+
+.Snow {
+    position: absolute;
+    width: 1457px;
+    height: 1035px;
+    left: -7px;
+    top: -5px;
+    background: url(Snow Overlay 01.png);
+    opacity: 0.35;
+}
+
+.Santa {
+    display: block;
+    position: absolute;
+    width: 600px;
+    height: auto;
+    left: 800px;
+    top: 266px;
+}
+
+.lion {
+
+position: absolute;
+width: 600px;
+height: auto;
+left: -104px;
+top: 21px;
+
+
+}
+
+h1 {
+    position: absolute;
+    width: 242px;
+    height: 29px;
+    left: 50%;
+    transform: translateX(-50%); /* Центрируем заголовок по горизонтали */
+    top: 975px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 251, 251, 0.96);
+}
+
+.logo {
+    position: absolute;
+    width: 74px;
+    height: 29px;
+    left: 20px;
+    top: 1000px;
+}
+
+#start-button {
+    position: absolute;
+    width: 465.35px;
+    height: 124px;
+    left: 50%;
+    transform: translateX(-50%); /* Центрируем кнопку по горизонтали */
+    top: 444px;
+    background: #F1AD35;
+    border: 5px solid rgba(255, 251, 251, 0.96);
+    box-shadow: -3px 17px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: rgba(255, 251, 251, 0.96);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#start-button:hover {
+    transform: scale(1.1);
+}

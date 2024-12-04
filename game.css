@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #CE342A;
+}
+
+h1 {
+    position: absolute;
+    width: 300px; /* Можно оставить или изменить в зависимости от ваших нужд */
+    height: auto; /* Можно оставить или изменить в зависимости от ваших нужд */
+    left: 475px; /* Центрирование по горизонтали */
+    top: 100px; /* Центрирование по вертикали */
+   
+    background: #F1AD35;
+    border: 3px solid rgba(255, 251, 251, 0.96);
+    border-radius: 25px;
+
+    font-family: 'Montserrat Alternates', sans-serif; /* Добавлено sans-serif для запасного шрифта */
+    font-style: normal; /* Убедитесь, что стиль нормальный, если не требуется курсив */
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрирование текста по горизонтали внутри блока */
+    text-align: center;
+
+    color: rgba(255, 251, 251, 0.96);
+}
+
+.Snow {
+    position: absolute;
+    width: 1457px;
+    height: 1035px;
+    left: 0px;
+    top: 0px;
+    background: url(Snow Overlay 01.png);
+    opacity: 0.35;
+}
+
+.game-page {
+    text-align: center;
+}
+
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 карты в строке */
+    gap: 10px; /* расстояние между картами */
+    margin-top: 20px;
+}
+
+.card {
+    width: 100px; /* Ширина карты */
+    height: 140px; /* Высота карты */
+    perspective: 1000px; /* Добавляем перспективу для 3D эффекта */
+    cursor: pointer;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s; /* Плавный переход для анимации */
+    border-radius: 10px; /* Скругленные углы */
+}
+
+.card:hover .card-image {
+    transform: scale(1.1); /* Увеличиваем карточку при наведении */
+}
+
+.card > img {
+    display: block;
+    width: 100%; /* Полная ширина для изображений */
+    height: auto; /* Авто высота для изображений */
+    border-radius: 10px;
+}
